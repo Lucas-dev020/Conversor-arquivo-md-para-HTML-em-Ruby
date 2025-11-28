@@ -1,4 +1,3 @@
-# Carrega as bibliotecas do Bundler
 "#!/usr/bin/env ruby"
 require 'bundler/setup'
 require 'kramdown'
@@ -33,6 +32,6 @@ if File.exist?(caminho_arquivo)
   
   puts pastel.green.bold("✔ Sucesso! Arquivo gerado: #{nome_saida}")
 else
-  puts pastel.red.bold("❌ Erro Crítico: O arquivo solicitado não foi localizado.")
+  puts pastel.red.bold("Erro: Arquivo '#{caminho_arquivo}' não encontrado.")
   exit(1)
 end

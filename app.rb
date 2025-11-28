@@ -1,3 +1,4 @@
+# Carrega as bibliotecas do Bundler
 "#!/usr/bin/env ruby"
 require 'bundler/setup'
 require 'kramdown'

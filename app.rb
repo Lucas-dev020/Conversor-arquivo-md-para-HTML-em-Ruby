@@ -8,7 +8,7 @@ prompt = TTY::Prompt.new
 pastel = Pastel.new
 
 # Título
-puts pastel.bold.cyan("=== Conversor Grupo 6: Markdown para HTML ===")
+puts pastel.bold.blue("=== Conversor Grupo 6: Markdown para HTML ===")
 
 # 1. Pergunta o nome do arquivo (Interatividade)
 # Se rodar sem argumentos, ele pergunta. Se passar argumento, ele usa.

@@ -10,5 +10,5 @@ RUN bundle install
 
 # Copia o resto do código (seu app.rb)
 COPY . .
-
+LABEL maintainer="Grupo 6"
 ENTRYPOINT ["ruby", "app.rb"]
